@@ -1,0 +1,625 @@
+entries:
+- amount: 5000.0
+  date: '2023-01-23'
+  org_type: IT systems and software consulting company
+  simplified: true
+  themes:
+  - &id001
+    category: &id002
+      name: Compliance and Cooperation
+      slug: compliance
+      sub_categories:
+        cnil-cooperation: *id001
+        injunction-compliance: &id017
+          category: *id002
+          name: Compliance with Injunctions
+          slug: injunction-compliance
+    name: Cooperation with CNIL
+    slug: cnil-cooperation
+  - &id003
+    category: &id004
+      name: Data Processing
+      slug: data-processing
+      sub_categories:
+        consent: *id003
+        data-accuracy: &id025
+          category: *id004
+          name: Data Accuracy
+          slug: data-accuracy
+        data-minimization: &id014
+          category: *id004
+          name: Data Minimization
+          slug: data-minimization
+        lawfulness: &id019
+          category: *id004
+          name: Lawfulness of Processing
+          slug: lawfulness
+        purpose-limitation: &id024
+          category: *id004
+          name: Purpose Limitation
+          slug: purpose-limitation
+        special-categories: &id022
+          category: *id004
+          name: Special Categories of Data
+          slug: special-categories
+        storage-limitation: &id018
+          category: *id004
+          name: Storage Limitation
+          slug: storage-limitation
+    name: Consent
+    slug: consent
+  - &id005
+    category: &id006
+      name: Transparency and Information
+      slug: transparency
+      sub_categories:
+        information-provision: *id005
+        transparency-obligations: &id028
+          category: *id006
+          name: Transparency Obligations
+          slug: transparency-obligations
+    name: Provision of Information
+    slug: information-provision
+  - &id008
+    category: &id007
+      name: Data Subject Rights
+      slug: data-subject-rights
+      sub_categories:
+        right-of-access: &id013
+          category: *id007
+          name: Right of Access
+          slug: right-of-access
+        right-to-erasure: *id008
+        right-to-object: &id023
+          category: *id007
+          name: Right to Object
+          slug: right-to-object
+        rights-exercise: &id027
+          category: *id007
+          name: Exercise of Rights
+          slug: rights-exercise
+    name: Right to Erasure
+    slug: right-to-erasure
+  - &id010
+    category: &id009
+      name: Organizational Measures
+      slug: organizational-measures
+      sub_categories:
+        data-breach: &id020
+          category: *id009
+          name: Data Breach Documentation
+          slug: data-breach
+        dpo: &id012
+          category: *id009
+          name: Data Protection Officer
+          slug: dpo
+        impact-assessment: &id029
+          category: *id009
+          name: Data Protection Impact Assessment
+          slug: impact-assessment
+        record-keeping: *id010
+    name: Record Keeping
+    slug: record-keeping
+  - &id011
+    category: &id031
+      name: Data Security
+      slug: security
+      sub_categories:
+        data-security: *id011
+    name: Data Security Measures
+    slug: data-security
+- amount: 5000.0
+  date: '2023-02-08'
+  org_type: Municipality
+  simplified: true
+  themes:
+  - *id012
+  - *id001
+- amount: 3000.0
+  date: '2023-02-08'
+  org_type: General practitioner
+  simplified: true
+  themes:
+  - *id013
+  - *id001
+- amount: 10000.0
+  date: '2023-02-08'
+  org_type: Company operating in specialized clothing retail
+  simplified: true
+  themes:
+  - *id001
+- amount: 15000.0
+  date: '2023-03-03'
+  org_type: Company operating in private security
+  simplified: true
+  themes:
+  - *id014
+  - *id005
+  - *id010
+- amount: 125000.0
+  date: '2023-03-16'
+  org_type: Electric scooter sharing company
+  simplified: false
+  themes:
+  - *id014
+  - *id005
+  - &id016
+    category: &id015
+      name: Third-Party Relationships
+      slug: third-party-relationships
+      sub_categories:
+        joint-controllers: &id021
+          category: *id015
+          name: Joint Controllers
+          slug: joint-controllers
+        processor-relationship: *id016
+    name: Controller-Processor Relationship
+    slug: processor-relationship
+- amount: 20000.0
+  date: '2023-03-28'
+  org_type: Computer programming company
+  simplified: true
+  themes:
+  - *id016
+  - *id011
+- amount: 10000.0
+  date: '2023-03-28'
+  org_type: Marketing company
+  simplified: true
+  themes:
+  - *id001
+- amount: 10000.0
+  date: '2023-04-17'
+  org_type: Home care company for elderly and disabled people
+  simplified: false
+  themes:
+  - *id017
+- amount: 5200000.0
+  date: '2023-04-17'
+  org_type: Company developing facial recognition software
+  simplified: false
+  themes:
+  - *id017
+- amount: 380000.0
+  date: '2023-05-11'
+  org_type: Company publishing a website offering articles, tests, quizzes, and discussion
+    forums related to health and wellness
+  simplified: false
+  themes:
+  - *id018
+  - *id003
+  - *id016
+  - *id011
+  - *id003
+- amount: 4500.0
+  date: '2023-05-12'
+  org_type: Dental surgeon
+  simplified: true
+  themes:
+  - *id013
+  - *id001
+- amount: 150000.0
+  date: '2023-06-08'
+  org_type: Psychic services company
+  simplified: false
+  themes:
+  - *id014
+  - *id018
+  - *id019
+  - *id003
+  - *id005
+  - *id016
+  - *id011
+  - *id020
+  - *id003
+- amount: 40000000.0
+  date: '2023-06-15'
+  org_type: Company specializing in targeted web advertising
+  simplified: false
+  themes:
+  - *id003
+  - *id005
+  - *id013
+  - *id003
+  - *id021
+- amount: 200000.0
+  date: '2023-09-18'
+  org_type: Air freight transport company
+  simplified: false
+  themes:
+  - *id014
+  - *id022
+  - *id022
+  - *id001
+- amount: 10000.0
+  date: '2023-09-28'
+  org_type: French literary magazine
+  simplified: true
+  themes:
+  - *id005
+  - *id001
+- amount: 20000.0
+  date: '2023-09-28'
+  org_type: Company manufacturing consumer plastic products
+  simplified: true
+  themes:
+  - *id014
+  - *id005
+  - *id011
+- amount: 20000.0
+  date: '2023-09-28'
+  org_type: Wholesale trade of frozen products
+  simplified: true
+  themes:
+  - *id014
+  - *id018
+  - *id022
+  - *id005
+  - *id010
+  - *id011
+- amount: 20000.0
+  date: '2023-09-28'
+  org_type: Company with retail optical business
+  simplified: true
+  themes:
+  - *id001
+- amount: 20000.0
+  date: '2023-10-06'
+  org_type: IT systems and software consulting company
+  simplified: true
+  themes:
+  - *id001
+- amount: 600000.0
+  date: '2023-10-12'
+  org_type: Company broadcasting channels and distributing pay TV offers
+  simplified: false
+  themes:
+  - *id003
+  - *id005
+  - *id013
+  - *id016
+  - *id020
+- amount: 5000.0
+  date: '2023-10-23'
+  org_type: Web editor dedicated to press
+  simplified: true
+  themes:
+  - *id023
+  - *id001
+- amount: 2000.0
+  date: '2023-10-23'
+  org_type: Online blog editor dedicated to the fight against pedocriminality
+  simplified: true
+  themes:
+  - *id001
+- amount: 2000.0
+  date: '2023-10-26'
+  org_type: Company with main activity in event planning
+  simplified: true
+  themes:
+  - *id014
+  - *id005
+  - *id010
+  - *id011
+- amount: 20000.0
+  date: '2023-11-08'
+  org_type: Company developing and implementing employee monitoring software
+  simplified: true
+  themes:
+  - *id001
+- amount: 0.0
+  date: '2023-11-09'
+  org_type: Ministry
+  simplified: false
+  themes:
+  - *id024
+- amount: 0.0
+  date: '2023-11-09'
+  org_type: Ministry
+  simplified: false
+  themes:
+  - *id024
+- amount: 6000.0
+  date: '2023-11-15'
+  org_type: Municipality
+  simplified: true
+  themes:
+  - *id019
+  - *id018
+  - *id011
+- amount: 8000.0
+  date: '2023-11-16'
+  org_type: Company providing business support, particularly for televised events
+  simplified: true
+  themes:
+  - *id019
+  - *id024
+  - *id011
+- amount: 5000.0
+  date: '2023-11-22'
+  org_type: Speech therapist
+  simplified: true
+  themes:
+  - *id001
+  - *id013
+- amount: 3000.0
+  date: '2023-12-11'
+  org_type: Political figure
+  simplified: true
+  themes:
+  - *id023
+- amount: 0.0
+  date: '2023-12-11'
+  org_type: Ministry
+  simplified: false
+  themes:
+  - *id019
+  - *id025
+  - *id011
+- amount: 0.0
+  date: '2023-12-11'
+  org_type: Ministry
+  simplified: false
+  themes:
+  - *id019
+  - *id025
+  - *id011
+- amount: 5000.0
+  date: '2023-12-12'
+  org_type: Municipality
+  simplified: false
+  themes:
+  - *id012
+  - *id001
+- amount: 5000.0
+  date: '2023-12-27'
+  org_type: Association promoting actions within a municipality
+  simplified: true
+  themes:
+  - *id001
+- amount: 1000.0
+  date: '2023-12-27'
+  org_type: Pediatrician
+  simplified: true
+  themes:
+  - *id001
+- amount: 10000.0
+  date: '2023-12-27'
+  org_type: Corporate social and economic committee
+  simplified: true
+  themes:
+  - *id012
+  - *id012
+  - *id012
+- amount: 32000000.0
+  date: '2023-12-27'
+  org_type: Logistic support company
+  simplified: false
+  themes:
+  - *id019
+  - *id014
+  - *id005
+  - *id011
+- amount: 100000.0
+  date: '2023-12-29'
+  org_type: IT systems and software consulting company
+  simplified: false
+  themes:
+  - *id016
+  - *id011
+- amount: 105000.0
+  date: '2023-12-29'
+  org_type: Company enabling online payments
+  simplified: false
+  themes:
+  - *id018
+  - *id005
+  - *id011
+  - *id003
+- amount: 10000000.0
+  date: '2023-12-29'
+  org_type: Company offering telecommunication services
+  simplified: false
+  themes:
+  - *id005
+  - *id003
+- amount: 75000.0
+  date: '2023-12-29'
+  org_type: Online contest and product testing website company
+  simplified: false
+  themes:
+  - *id019
+  - *id010
+- amount: 3000.0
+  date: '2022-01-22'
+  org_type: Automotive maintenance and repair company
+  simplified: false
+  themes:
+  - *id001
+- amount: 10000.0
+  date: '2022-03-21'
+  org_type: Restaurant
+  simplified: false
+  themes:
+  - *id014
+  - *id018
+  - *id005
+  - *id010
+  - *id001
+  - *id011
+- amount: 1000.0
+  date: '2022-03-24'
+  org_type: Notary
+  simplified: false
+  themes:
+  - *id017
+- amount: 1500000.0
+  date: '2022-04-15'
+  org_type: Application software publishing company
+  simplified: false
+  themes:
+  - *id016
+  - *id016
+  - *id011
+- amount: 1000000.0
+  date: '2022-06-23'
+  org_type: Company supplying and producing electricity and gas
+  simplified: false
+  themes:
+  - &id026
+    category: &id030
+      name: Commercial Communications
+      slug: commercial-communications
+      sub_categories:
+        commercial-prospecting: *id026
+    name: Commercial Prospecting
+    slug: commercial-prospecting
+  - *id005
+  - *id027
+  - *id013
+  - *id023
+- amount: 3900.0
+  date: '2022-06-13'
+  org_type: Vehicle maintenance and repair company
+  simplified: false
+  themes:
+  - *id017
+- amount: 175000.0
+  date: '2022-07-07'
+  org_type: Vehicle rental company
+  simplified: false
+  themes:
+  - *id014
+  - *id018
+  - *id005
+- amount: 600000.0
+  date: '2022-08-03'
+  org_type: Company specializing in the hotel industry
+  simplified: false
+  themes:
+  - *id026
+  - *id005
+  - *id013
+  - *id023
+  - *id011
+- amount: 250000.0
+  date: '2022-09-08'
+  org_type: Economic interest group of French commercial court registries
+  simplified: false
+  themes:
+  - *id018
+  - *id011
+- amount: 20000000.0
+  date: '2022-10-17'
+  org_type: Company developing facial recognition software
+  simplified: false
+  themes:
+  - *id019
+  - *id013
+  - *id008
+  - *id001
+- amount: 800000.0
+  date: '2022-11-10'
+  org_type: Company developing VoIP software and instant messaging
+  simplified: false
+  themes:
+  - *id018
+  - *id028
+  - *id005
+  - *id023
+  - *id011
+  - *id029
+  - *id011
+- amount: 600000.0
+  date: '2022-11-24'
+  org_type: Company providing electricity, gas, and services
+  simplified: false
+  themes:
+  - *id026
+  - *id005
+  - *id028
+  - *id023
+  - *id013
+  - *id011
+- amount: 300000.0
+  date: '2022-11-30'
+  org_type: Fixed telecommunication operator
+  simplified: false
+  themes:
+  - *id027
+  - *id013
+  - *id008
+  - *id020
+  - *id011
+- amount: 60000000.0
+  date: '2022-12-19'
+  org_type: Company selling operating systems, application software, hardware, and
+    related services
+  simplified: false
+  themes:
+  - *id003
+- amount: 0.0
+  date: '2022-12-20'
+  org_type: Company marketing an extension to obtain professional contact information
+  simplified: false
+  themes:
+  - *id019
+  - *id013
+- amount: 8000000.0
+  date: '2022-12-29'
+  org_type: Company creating and marketing consumer electronics, personal computers,
+    and software
+  simplified: false
+  themes:
+  - *id003
+- amount: 5000.0
+  date: '2022-12-29'
+  org_type: Doctor
+  simplified: true
+  themes:
+  - *id013
+  - *id001
+- amount: 5000.0
+  date: '2022-12-29'
+  org_type: Doctor
+  simplified: true
+  themes:
+  - *id013
+  - *id001
+- amount: 10000.0
+  date: '2022-12-29'
+  org_type: University
+  simplified: true
+  themes:
+  - *id024
+- amount: 15000.0
+  date: '2022-12-29'
+  org_type: Company developing management software and marketing software for local
+    authorities
+  simplified: true
+  themes:
+  - *id014
+  - *id018
+  - *id005
+  - *id011
+- amount: 5000000.0
+  date: '2022-12-29'
+  org_type: Companies operating a range of content distribution platforms
+  simplified: false
+  themes:
+  - *id003
+- amount: 3000000.0
+  date: '2022-12-29'
+  org_type: Mobile game development company
+  simplified: false
+  themes:
+  - *id003
+themes:
+  commercial-communications: *id030
+  compliance: *id002
+  data-processing: *id004
+  data-subject-rights: *id007
+  organizational-measures: *id009
+  security: *id031
+  third-party-relationships: *id015
+  transparency: *id006
