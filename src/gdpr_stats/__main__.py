@@ -220,7 +220,9 @@ def primary_parse(content: str) -> list[PrimaryEntry]:
     out = []
 
     for table in soup.find_all("table"):
-        if not table.select("caption h2"):
+        if not table.select("caption h2") and not table.find_parent(
+            lambda tag: "ctn-gen-ascenseur-texte" in tag.get("class", [])
+        ):
             continue
 
         for row in table.select("tr"):
